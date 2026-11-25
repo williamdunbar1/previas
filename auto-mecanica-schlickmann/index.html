@@ -1,0 +1,1644 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Auto Mecânica Schlickmann | Oficina Completa no Centro de Imbituba - SC</title>
+  <meta name="description" content="Auto Mecânica Schlickmann no Centro de Imbituba-SC: mecânica completa, diagnóstico avançado, câmbio automático, elétrica automotiva, baterias, ar-condicionado, troca de óleo, pneus, geometria e guincho. Nota 4,8 no Google (549 avaliações)." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Auto Mecânica Schlickmann | Oficina Completa no Centro de Imbituba - SC" />
+  <meta property="og:description" content="Mecânica completa, diagnóstico avançado, câmbio automático, elétrica, ar-condicionado, troca de óleo, pneus, geometria e guincho. Nota 4,8 no Google (549 avaliações)." />
+  <meta property="og:url" content="https://williamdunbar1.github.io/previas/auto-mecanica-schlickmann/" />
+  <meta property="og:image" content="https://williamdunbar1.github.io/previas/auto-mecanica-schlickmann/hero-bg.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Barlow:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg-iron: #0b0c0e;
+      --bg-steel: #121418;
+      --bg-gunmetal: #191c22;
+      --bg-plate: linear-gradient(165deg, #1e2229 0%, #15181d 55%, #111317 100%);
+      --border-steel: #2c313a;
+      --border-bright: #404754;
+      --text-main: #f3f4f6;
+      --text-steel: #cbd5e1;
+      --text-muted: #9ca3af;
+      --text-dim: #6b7280;
+      --brand-red: #dc2626;
+      --brand-red-bright: #ef4444;
+      --brand-red-dark: #991b1b;
+      --brand-gold: #facc15;
+      --brand-amber: #eab308;
+      --wa-green: #16a34a;
+      --wa-green-dark: #15803d;
+      --radius-lg: 14px;
+      --radius-md: 10px;
+      --shadow-plate: inset 0 1px 0 rgba(255, 255, 255, 0.09), 0 14px 32px rgba(0, 0, 0, 0.55);
+      --shadow-deep: inset 0 1px 0 rgba(255, 255, 255, 0.11), 0 22px 48px rgba(0, 0, 0, 0.72);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Barlow', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      color: var(--text-main);
+      background-color: var(--bg-iron);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3, h4, .font-display {
+      font-family: 'Barlow Condensed', 'Barlow', system-ui, sans-serif;
+      line-height: 1.08;
+      letter-spacing: 0.01em;
+      text-transform: uppercase;
+    }
+
+    .font-mono {
+      font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* Industrial textures & rivets */
+    .steel-plate-bg {
+      background-color: #0e1013;
+      background-image:
+        repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.018) 0 1px, transparent 1px 14px),
+        repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.018) 0 1px, transparent 1px 14px);
+    }
+
+    .hazard-stripe {
+      height: 7px;
+      background: repeating-linear-gradient(
+        -45deg,
+        #eab308 0 12px,
+        #111317 12px 24px
+      );
+    }
+
+    .hazard-stripe-thin {
+      height: 4px;
+      background: repeating-linear-gradient(
+        -45deg,
+        #eab308 0 10px,
+        #111317 10px 20px
+      );
+    }
+
+    .bolted {
+      position: relative;
+    }
+
+    .bolted::before,
+    .bolted::after {
+      content: '';
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 35% 35%, #9ca3af, #374151 70%, #111827);
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.85), inset 0 0 0 1px rgba(255, 255, 255, 0.14);
+      pointer-events: none;
+    }
+
+    .bolted::before {
+      top: 10px;
+      left: 10px;
+    }
+
+    .bolted::after {
+      top: 10px;
+      right: 10px;
+    }
+
+    /* Preview top ribbon */
+    .preview-ribbon {
+      background: #07080a;
+      color: #9ca3af;
+      font-size: 12px;
+      text-align: center;
+      padding: 7px 16px;
+      border-bottom: 1px solid #1f242c;
+    }
+
+    .preview-ribbon strong {
+      color: var(--brand-gold);
+    }
+
+    /* Header */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(11, 12, 14, 0.96);
+      backdrop-filter: blur(10px);
+      border-bottom: 2px solid var(--brand-red);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 10px 0;
+    }
+
+    .brand-plaque {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      background: linear-gradient(180deg, #ffffff 0%, #f1f5f9 100%);
+      padding: 5px 14px;
+      border-radius: 8px;
+      border: 2px solid #4b5563;
+      box-shadow: inset 0 1px 0 #ffffff, inset 0 -1px 2px rgba(0, 0, 0, 0.18), 0 4px 12px rgba(0, 0, 0, 0.55);
+      flex-shrink: 0;
+    }
+
+    .brand-plaque::before,
+    .brand-plaque::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: #64748b;
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.5);
+    }
+
+    .brand-plaque::before {
+      left: 5px;
+    }
+
+    .brand-plaque::after {
+      right: 5px;
+    }
+
+    .brand-plaque img {
+      height: 35px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .nav-links {
+      display: none;
+      align-items: center;
+      gap: 28px;
+      color: #cbd5e1;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .nav-links a:hover {
+      color: var(--brand-gold);
+    }
+
+    .header-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: linear-gradient(180deg, #16a34a 0%, #15803d 100%);
+      color: #ffffff;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: 16px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      padding: 9px 16px;
+      border-radius: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 4px 14px rgba(22, 163, 74, 0.35);
+      transition: transform 0.15s ease, filter 0.15s ease;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .header-cta:hover {
+      filter: brightness(1.08);
+      transform: translateY(-1px);
+    }
+
+    @media (min-width: 860px) {
+      .nav-links {
+        display: flex;
+      }
+      .brand-plaque img {
+        height: 39px;
+      }
+    }
+
+    /* Hero */
+    .hero {
+      position: relative;
+      background-color: #0b0c0e;
+      background-image:
+        linear-gradient(105deg, rgba(11, 12, 14, 0.94) 0%, rgba(13, 15, 18, 0.85) 52%, rgba(11, 12, 14, 0.68) 100%),
+        url('./hero-bg.jpg');
+      background-size: cover;
+      background-position: center right;
+      color: #ffffff;
+      padding: 44px 0 92px;
+      border-bottom: 1px solid var(--border-steel);
+    }
+
+    @media (min-width: 920px) {
+      .hero {
+        background-image:
+          linear-gradient(100deg, rgba(11, 12, 14, 0.95) 0%, rgba(13, 15, 18, 0.84) 48%, rgba(11, 12, 14, 0.42) 100%),
+          url('./hero-bg.jpg');
+        padding: 64px 0 112px;
+      }
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 84px;
+      background: linear-gradient(180deg, transparent, #0b0c0e);
+      pointer-events: none;
+    }
+
+    .hero-grid {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 30px;
+      align-items: center;
+    }
+
+    @media (min-width: 920px) {
+      .hero-grid {
+        grid-template-columns: 1.25fr 0.85fr;
+        gap: 44px;
+      }
+    }
+
+    .trust-pill {
+      display: inline-flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px 10px;
+      background: rgba(18, 20, 24, 0.88);
+      border: 1px solid rgba(250, 204, 21, 0.42);
+      color: #f8fafc;
+      padding: 7px 14px;
+      border-radius: 8px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11.5px;
+      line-height: 1.4;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    }
+
+    .trust-pill .stars {
+      color: var(--brand-gold);
+      font-size: 14px;
+      letter-spacing: 2px;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.35rem, 5vw, 3.85rem);
+      font-weight: 800;
+      color: #ffffff;
+      margin-bottom: 16px;
+      text-shadow: 0 4px 18px rgba(0, 0, 0, 0.65);
+    }
+
+    .hero h1 .hl-red {
+      color: var(--brand-red-bright);
+    }
+
+    .hero h1 .hl-gold {
+      color: var(--brand-gold);
+    }
+
+    .hero-sub {
+      font-size: 17px;
+      color: #d1d5db;
+      max-width: 600px;
+      margin-bottom: 26px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      font-family: 'Barlow Condensed', 'Barlow', sans-serif;
+      font-weight: 800;
+      font-size: 17px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      padding: 13px 22px;
+      border-radius: 9px;
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: transform 0.15s ease, filter 0.15s ease, border-color 0.15s ease;
+      text-align: center;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      filter: brightness(1.07);
+    }
+
+    .btn-wa {
+      background: linear-gradient(180deg, #16a34a 0%, #15803d 100%);
+      color: #ffffff;
+      border-color: rgba(134, 239, 172, 0.35);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 10px 24px rgba(22, 163, 74, 0.38);
+    }
+
+    .btn-guincho {
+      background: linear-gradient(180deg, rgba(153, 27, 27, 0.65) 0%, rgba(127, 29, 29, 0.85) 100%);
+      color: #fef2f2;
+      border-color: rgba(239, 68, 68, 0.55);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.14), 0 8px 20px rgba(0, 0, 0, 0.45);
+    }
+
+    .btn-steel {
+      background: linear-gradient(180deg, #2a2f38 0%, #1b1f26 100%);
+      color: #f3f4f6;
+      border-color: #4b5563;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.14), 0 6px 16px rgba(0, 0, 0, 0.45);
+    }
+
+    .hero-meta-note {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      color: #9ca3af;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px 20px;
+    }
+
+    .hero-meta-note span {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* Hero right brushed-steel plaque */
+    .hero-card {
+      background: linear-gradient(165deg, rgba(28, 32, 39, 0.94) 0%, rgba(17, 19, 24, 0.96) 100%);
+      border: 1px solid var(--border-bright);
+      border-top: 3px solid var(--brand-red);
+      border-radius: var(--radius-lg);
+      padding: 26px 24px 22px;
+      box-shadow: var(--shadow-deep);
+    }
+
+    .hero-card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--border-steel);
+      margin-bottom: 16px;
+    }
+
+    .hero-card-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+
+    .status-tag {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+      background: rgba(250, 204, 21, 0.14);
+      border: 1px solid rgba(250, 204, 21, 0.38);
+      color: var(--brand-gold);
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .info-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .info-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .info-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      background: #0d0f12;
+      border: 1px solid var(--border-steel);
+      color: var(--brand-gold);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .info-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-weight: 700;
+    }
+
+    .info-val {
+      font-size: 14px;
+      color: #f3f4f6;
+      font-weight: 600;
+    }
+
+    /* Quick budget metallic console */
+    .budget-wrap {
+      margin-top: -54px;
+      position: relative;
+      z-index: 20;
+      margin-bottom: 48px;
+    }
+
+    .budget-card {
+      background: var(--bg-plate);
+      border: 1px solid var(--border-bright);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-deep);
+      overflow: hidden;
+    }
+
+    .budget-top-bar {
+      height: 4px;
+      background: linear-gradient(90deg, var(--brand-red) 0%, var(--brand-gold) 50%, var(--brand-red) 100%);
+    }
+
+    .budget-inner {
+      padding: 26px 24px 28px;
+    }
+
+    @media (min-width: 768px) {
+      .budget-inner {
+        padding: 30px 34px 32px;
+      }
+    }
+
+    .budget-head {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    .budget-kicker {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: var(--brand-gold);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 700;
+      margin-bottom: 4px;
+      display: block;
+    }
+
+    .budget-head h2 {
+      font-size: clamp(1.5rem, 2.8vw, 2rem);
+      color: #ffffff;
+    }
+
+    .budget-channel-badge {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      font-weight: 700;
+      color: #86efac;
+      background: rgba(22, 163, 74, 0.16);
+      border: 1px solid rgba(34, 197, 94, 0.4);
+      padding: 7px 12px;
+      border-radius: 7px;
+      text-transform: uppercase;
+    }
+
+    .budget-channel-badge.is-guincho {
+      color: #fecaca;
+      background: rgba(220, 38, 38, 0.22);
+      border-color: rgba(239, 68, 68, 0.55);
+    }
+
+    .chip-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin-bottom: 18px;
+    }
+
+    .chip-btn {
+      border: 1px solid var(--border-steel);
+      background: linear-gradient(180deg, #21262e 0%, #171a20 100%);
+      color: #d1d5db;
+      font-family: 'Barlow', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 9px 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.07);
+      transition: all 0.15s ease;
+    }
+
+    .chip-btn:hover {
+      border-color: #6b7280;
+      color: #ffffff;
+    }
+
+    .chip-btn.active {
+      background: linear-gradient(180deg, #b91c1c 0%, #7f1d1d 100%);
+      color: #ffffff;
+      border-color: #f87171;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22), 0 4px 14px rgba(220, 38, 38, 0.35);
+    }
+
+    .chip-btn.active[data-channel="guincho"] {
+      background: linear-gradient(180deg, #ca8a04 0%, #991b1b 100%);
+      border-color: var(--brand-gold);
+    }
+
+    .budget-form-row {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    @media (min-width: 720px) {
+      .budget-form-row {
+        grid-template-columns: 1fr auto;
+      }
+    }
+
+    .budget-input {
+      width: 100%;
+      padding: 13px 16px;
+      border: 1px solid var(--border-bright);
+      border-radius: 9px;
+      font-family: inherit;
+      font-size: 15px;
+      color: #ffffff;
+      background: #0b0c0e;
+      box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.55);
+      outline: none;
+    }
+
+    .budget-input::placeholder {
+      color: #6b7280;
+    }
+
+    .budget-input:focus {
+      border-color: var(--brand-gold);
+    }
+
+    /* Section commons */
+    .section {
+      padding: 58px 0;
+    }
+
+    .section-header {
+      max-width: 700px;
+      margin-bottom: 30px;
+    }
+
+    .section-kicker {
+      display: inline-block;
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--brand-gold);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 8px;
+    }
+
+    .section-header h2 {
+      font-size: clamp(1.85rem, 3.6vw, 2.55rem);
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+
+    .section-header p {
+      color: var(--text-muted);
+      font-size: 16px;
+    }
+
+    /* Services grid */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+      gap: 16px;
+    }
+
+    .service-card {
+      position: relative;
+      background: var(--bg-plate);
+      border: 1px solid var(--border-steel);
+      border-top: 2px solid #3f4652;
+      border-radius: var(--radius-md);
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 14px;
+      box-shadow: var(--shadow-plate);
+      transition: transform 0.15s ease, border-color 0.15s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-2px);
+      border-color: #525a67;
+      border-top-color: var(--brand-red);
+    }
+
+    .service-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+    }
+
+    .service-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 9px;
+      background: #0b0c0e;
+      border: 1px solid rgba(220, 38, 38, 0.45);
+      color: var(--brand-red-bright);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.65);
+    }
+
+    .service-code {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-dim);
+      letter-spacing: 0.06em;
+    }
+
+    .service-card h3 {
+      font-size: 20px;
+      font-weight: 800;
+      margin-bottom: 6px;
+      color: #ffffff;
+    }
+
+    .service-card p {
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+
+    .service-link {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--brand-gold);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .service-link:hover {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+
+    /* Guincho Industrial Bay */
+    .guincho-bay {
+      margin-top: 24px;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 1px solid var(--border-bright);
+      box-shadow: var(--shadow-plate);
+      background: linear-gradient(135deg, #1b1113 0%, #14161a 60%, #111317 100%);
+    }
+
+    .guincho-body {
+      padding: 24px 26px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .guincho-body h3 {
+      font-size: 24px;
+      color: #ffffff;
+      margin-bottom: 4px;
+    }
+
+    .guincho-body p {
+      color: #cbd5e1;
+      font-size: 15px;
+    }
+
+    /* Reputation Section */
+    .reputation-band {
+      background: #0b0c0e;
+      border-top: 1px solid var(--border-steel);
+      border-bottom: 1px solid var(--border-steel);
+    }
+
+    .reputation-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 28px;
+      align-items: center;
+    }
+
+    @media (min-width: 880px) {
+      .reputation-grid {
+        grid-template-columns: 0.9fr 1.1fr;
+        gap: 36px;
+      }
+    }
+
+    .rating-box {
+      background: var(--bg-plate);
+      border: 1px solid var(--border-bright);
+      border-top: 3px solid var(--brand-gold);
+      border-radius: var(--radius-lg);
+      padding: 36px 28px 30px;
+      text-align: center;
+      box-shadow: var(--shadow-deep);
+    }
+
+    .rating-kicker {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: var(--text-muted);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .rating-score {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 72px;
+      font-weight: 800;
+      line-height: 1;
+      color: var(--brand-gold);
+      text-shadow: 0 4px 16px rgba(250, 204, 21, 0.25);
+      margin-bottom: 8px;
+    }
+
+    .rating-stars {
+      color: var(--brand-gold);
+      font-size: 22px;
+      letter-spacing: 4px;
+      margin-bottom: 10px;
+    }
+
+    .rating-count {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      color: #f3f4f6;
+      margin-bottom: 22px;
+    }
+
+    .pillars {
+      display: grid;
+      gap: 14px;
+    }
+
+    .pillar-item {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      padding: 20px 20px 18px;
+      border-radius: var(--radius-md);
+      background: var(--bg-plate);
+      border: 1px solid var(--border-steel);
+      box-shadow: var(--shadow-plate);
+    }
+
+    .pillar-num {
+      font-family: 'JetBrains Mono', monospace;
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      background: #0b0c0e;
+      border: 1px solid rgba(220, 38, 38, 0.55);
+      color: var(--brand-red-bright);
+      font-weight: 700;
+      font-size: 13px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .pillar-item h3 {
+      font-size: 19px;
+      margin-bottom: 4px;
+      color: #ffffff;
+    }
+
+    .pillar-item p {
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+
+    /* Canais Diretos Switchboard */
+    .channels-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+    }
+
+    .channel-card {
+      background: var(--bg-plate);
+      border: 1px solid var(--border-steel);
+      border-top: 3px solid var(--wa-green);
+      border-radius: var(--radius-md);
+      padding: 24px 20px 20px;
+      box-shadow: var(--shadow-plate);
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+      transition: transform 0.15s ease, border-color 0.15s ease;
+    }
+
+    .channel-card.rail-red {
+      border-top-color: var(--brand-red);
+    }
+
+    .channel-card.rail-gold {
+      border-top-color: var(--brand-gold);
+    }
+
+    .channel-card.rail-ig {
+      border-top-color: #ec4899;
+    }
+
+    .channel-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--border-bright);
+    }
+
+    .channel-tag {
+      display: inline-block;
+      align-self: flex-start;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 4px 9px;
+      border-radius: 5px;
+      background: rgba(22, 163, 74, 0.16);
+      border: 1px solid rgba(34, 197, 94, 0.35);
+      color: #86efac;
+    }
+
+    .channel-tag.tag-red {
+      background: rgba(220, 38, 38, 0.18);
+      border-color: rgba(239, 68, 68, 0.45);
+      color: #fca5a5;
+    }
+
+    .channel-tag.tag-gold {
+      background: rgba(250, 204, 21, 0.15);
+      border-color: rgba(250, 204, 21, 0.4);
+      color: #fde047;
+    }
+
+    .channel-tag.tag-ig {
+      background: rgba(236, 72, 153, 0.16);
+      border-color: rgba(236, 72, 153, 0.4);
+      color: #f9a8d4;
+    }
+
+    .channel-card h3 {
+      font-size: 20px;
+      color: #ffffff;
+    }
+
+    .channel-phone {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 15px;
+      font-weight: 700;
+      color: #f3f4f6;
+    }
+
+    .channel-desc {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      flex: 1;
+    }
+
+    .channel-cta {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--brand-gold);
+      margin-top: 4px;
+    }
+
+    /* Location */
+    .location-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+      align-items: stretch;
+    }
+
+    @media (min-width: 860px) {
+      .location-grid {
+        grid-template-columns: 0.9fr 1.1fr;
+      }
+    }
+
+    .location-card {
+      background: var(--bg-plate);
+      border: 1px solid var(--border-bright);
+      border-radius: var(--radius-lg);
+      padding: 28px 24px 24px;
+      box-shadow: var(--shadow-plate);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .loc-detail {
+      display: grid;
+      gap: 16px;
+    }
+
+    .loc-block h4 {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      color: var(--brand-gold);
+      margin-bottom: 4px;
+    }
+
+    .loc-block p {
+      font-size: 15px;
+      font-weight: 600;
+      color: #f3f4f6;
+    }
+
+    .map-frame {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 2px solid var(--border-bright);
+      box-shadow: var(--shadow-plate);
+      min-height: 330px;
+      background: #171a20;
+    }
+
+    .map-frame iframe {
+      width: 100%;
+      height: 100%;
+      min-height: 330px;
+      border: 0;
+      display: block;
+    }
+
+    /* Footer */
+    footer {
+      background: #07080a;
+      color: #9ca3af;
+      font-size: 13px;
+    }
+
+    .footer-inner {
+      padding: 32px 0 82px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+    }
+
+    @media (min-width: 860px) {
+      .footer-inner {
+        padding-bottom: 36px;
+      }
+    }
+
+    /* Floating WhatsApp (mobile after scroll only) */
+    .floating-wa {
+      position: fixed;
+      right: 16px;
+      bottom: 16px;
+      z-index: 60;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: linear-gradient(180deg, #16a34a 0%, #15803d 100%);
+      color: #ffffff;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: 16px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      padding: 11px 16px;
+      border-radius: 999px;
+      border: 1px solid rgba(134, 239, 172, 0.4);
+      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.65);
+      transition: transform 0.15s ease, opacity 0.2s ease;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .floating-wa.visible {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    @media (min-width: 860px) {
+      .floating-wa {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="preview-ribbon font-mono">
+    <strong>PRÉVIA EXCLUSIVA</strong> · AUTO MECÂNICA SCHLICKMANN · IMBITUBA - SC
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#topo" class="brand-plaque" aria-label="Auto Mecânica Schlickmann">
+        <img src="./logo.png" alt="Logo Auto Mecânica Schlickmann" />
+      </a>
+      <nav class="nav-links" aria-label="Navegação principal">
+        <a href="#orcamento">Orçamento</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#canais">Canais Diretos</a>
+        <a href="#localizacao">Localização</a>
+      </nav>
+      <a
+        class="header-cta"
+        href="https://wa.me/554832551367?text=Ol%C3%A1!%20Encontrei%20a%20Auto%20Mec%C3%A2nica%20Schlickmann%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2zm5.8 14.07c-.24.68-1.42 1.31-1.97 1.39-.51.08-1.15.11-1.86-.12-.43-.14-.98-.32-1.69-.63-2.97-1.28-4.91-4.27-5.06-4.47-.15-.2-1.21-1.61-1.21-3.07 0-1.46.76-2.18 1.03-2.48.27-.3.59-.38.79-.38.2 0 .4 0 .57.01.18.01.43-.07.67.51.24.58.83 2.02.9 2.17.07.15.12.33.02.53-.1.2-.15.33-.3.5-.15.17-.31.38-.45.51-.15.15-.31.31-.13.61.18.3.78 1.29 1.68 2.09 1.15 1.03 2.13 1.35 2.43 1.5.3.15.48.13.66-.08.18-.21.75-.88.95-1.18.2-.3.4-.25.67-.15.27.1 1.74.82 2.04.97.3.15.5.22.57.34.07.12.07.7-.17 1.38z"/>
+        </svg>
+        WhatsApp
+      </a>
+    </div>
+  </header>
+
+  <main id="topo">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="trust-pill">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <span>4,8 NO GOOGLE · 549 AVALIAÇÕES · CENTRO DE IMBITUBA</span>
+          </div>
+          <h1>
+            Oficina completa e <span class="hl-red">diagnóstico avançado</span> no <span class="hl-gold">Centro de Imbituba</span>
+          </h1>
+          <p class="hero-sub">
+            Câmbio automático, elétrica automotiva, baterias, ar-condicionado, troca de óleo, pneus, balanceamento, geometria e atendimento de guincho direto no WhatsApp.
+          </p>
+          <div class="hero-actions">
+            <a
+              class="btn btn-wa"
+              href="https://wa.me/554832551367?text=Ol%C3%A1!%20Encontrei%20a%20Auto%20Mec%C3%A2nica%20Schlickmann%20pelo%20Google%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2zm5.8 14.07c-.24.68-1.42 1.31-1.97 1.39-.51.08-1.15.11-1.86-.12-.43-.14-.98-.32-1.69-.63-2.97-1.28-4.91-4.27-5.06-4.47-.15-.2-1.21-1.61-1.21-3.07 0-1.46.76-2.18 1.03-2.48.27-.3.59-.38.79-.38.2 0 .4 0 .57.01.18.01.43-.07.67.51.24.58.83 2.02.9 2.17.07.15.12.33.02.53-.1.2-.15.33-.3.5-.15.17-.31.38-.45.51-.15.15-.31.31-.13.61.18.3.78 1.29 1.68 2.09 1.15 1.03 2.13 1.35 2.43 1.5.3.15.48.13.66-.08.18-.21.75-.88.95-1.18.2-.3.4-.25.67-.15.27.1 1.74.82 2.04.97.3.15.5.22.57.34.07.12.07.7-.17 1.38z"/>
+              </svg>
+              Pedir Orçamento no WhatsApp
+            </a>
+            <a
+              class="btn btn-guincho"
+              href="https://wa.me/5548999578444?text=Ol%C3%A1!%20Preciso%20solicitar%20atendimento%20de%20guincho."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Solicitar Guincho · (48) 99957-8444
+            </a>
+          </div>
+          <div class="hero-meta-note">
+            <span>R. Três de Outubro, 401 — Centro, Imbituba</span>
+            <span>Seg a Sex: 08h–12h e 13h30–18h30</span>
+          </div>
+        </div>
+
+        <aside class="hero-card bolted" aria-label="Ficha rápida da oficina">
+          <div class="hero-card-header">
+            <span class="hero-card-title">Ficha da Oficina</span>
+            <span class="status-tag">Seg a Sex</span>
+          </div>
+          <div class="info-list">
+            <div class="info-row">
+              <div class="info-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <div class="info-label">Endereço</div>
+                <div class="info-val">Rua Três de Outubro, 401 — Centro, Imbituba - SC</div>
+              </div>
+            </div>
+            <div class="info-row">
+              <div class="info-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <div class="info-label">Horário</div>
+                <div class="info-val">Segunda a Sexta · 08h às 12h e 13h30 às 18h30</div>
+              </div>
+            </div>
+            <div class="info-row">
+              <div class="info-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.58 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <div class="info-label">Orçamento &amp; Comercial</div>
+                <div class="info-val font-mono">(48) 3255-1367 · WhatsApp</div>
+              </div>
+            </div>
+            <div class="info-row">
+              <div class="info-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+              </div>
+              <div>
+                <div class="info-label">Guincho</div>
+                <div class="info-val font-mono">(48) 99957-8444 · Socorro</div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <div class="container budget-wrap" id="orcamento">
+      <div class="budget-card bolted">
+        <div class="budget-top-bar"></div>
+        <div class="budget-inner">
+          <div class="budget-head">
+            <div>
+              <span class="budget-kicker">Ordem de Serviço Rápida</span>
+              <h2>Agilize seu orçamento pelo WhatsApp</h2>
+            </div>
+            <span id="budget-channel-badge" class="budget-channel-badge">
+              Destino: Orçamento · (48) 3255-1367
+            </span>
+          </div>
+          <div class="chip-grid" role="group" aria-label="Escolha o serviço">
+            <button type="button" class="chip-btn active" data-service="Mecânica Geral e Diagnóstico" data-channel="comercial">01 · Mecânica e Diagnóstico</button>
+            <button type="button" class="chip-btn" data-service="Câmbio Automático" data-channel="comercial">02 · Câmbio Automático</button>
+            <button type="button" class="chip-btn" data-service="Elétrica Automotiva e Baterias" data-channel="comercial">03 · Elétrica e Baterias</button>
+            <button type="button" class="chip-btn" data-service="Ar-Condicionado Automotivo" data-channel="comercial">04 · Ar-Condicionado</button>
+            <button type="button" class="chip-btn" data-service="Troca de Óleo" data-channel="comercial">05 · Troca de Óleo</button>
+            <button type="button" class="chip-btn" data-service="Pneus, Balanceamento e Geometria" data-channel="comercial">06 · Pneus e Geometria</button>
+            <button type="button" class="chip-btn" data-service="Atendimento de Guincho" data-channel="guincho">07 · Atendimento de Guincho</button>
+          </div>
+          <div class="budget-form-row">
+            <input
+              id="vehicle-input"
+              class="budget-input"
+              type="text"
+              placeholder="Modelo e ano do veículo (opcional — ex.: Onix 2021, Hilux 2019)"
+              aria-label="Modelo e ano do veículo"
+            />
+            <a
+              id="budget-wa-btn"
+              class="btn btn-wa"
+              href="https://wa.me/554832551367?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20Mec%C3%A2nica%20Geral%20e%20Diagn%C3%B3stico."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Enviar no WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="section steel-plate-bg" id="servicos">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">// Especialidades da Oficina</span>
+          <h2>Todos os serviços em um só lugar</h2>
+          <p>Estrutura completa para revisão preventiva, manutenção pesada, diagnóstico eletrônico e atendimento de emergência em Imbituba.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div>
+              <div class="service-top">
+                <div class="service-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                </div>
+                <span class="service-code">01</span>
+              </div>
+              <h3>Mecânica Completa e Diagnóstico Avançado</h3>
+              <p>Revisão geral, motor, freios, suspensão e rastreamento eletrônico para identificar falhas com precisão.</p>
+            </div>
+            <a class="service-link" href="https://wa.me/554832551367?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20Mec%C3%A2nica%20Completa%20e%20Diagn%C3%B3stico%20Avan%C3%A7ado." target="_blank" rel="noopener noreferrer">Orçar no WhatsApp →</a>
+          </article>
+
+          <article class="service-card">
+            <div>
+              <div class="service-top">
+                <div class="service-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+                </div>
+                <span class="service-code">02</span>
+              </div>
+              <h3>Câmbio Automático</h3>
+              <p>Manutenção preventiva, diagnóstico de falhas e troca de fluido para transmissões automáticas.</p>
+            </div>
+            <a class="service-link" href="https://wa.me/554832551367?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20C%C3%A2mbio%20Autom%C3%A1tico." target="_blank" rel="noopener noreferrer">Orçar no WhatsApp →</a>
+          </article>
+
+          <article class="service-card">
+            <div>
+              <div class="service-top">
+                <div class="service-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                </div>
+                <span class="service-code">03</span>
+              </div>
+              <h3>Elétrica Automotiva</h3>
+              <p>Soluções em sistema elétrico, alternador, motor de partida, chicotes, iluminação e módulos.</p>
+            </div>
+            <a class="service-link" href="https://wa.me/554832551367?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20El%C3%A9trica%20Automotiva." target="_blank" rel="noopener noreferrer">Orçar no WhatsApp →</a>
+          </article>
+
+          <article class="service-card">
+            <div>
+              <div class="service-top">
+                <div class="service-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="13" rx="2"/><line x1="6" y1="7" x2="6" y2="4"/><line x1="18" y1="7" x2="18" y2="4"/><line x1="11" y1="13" x2="13" y2="13"/></svg>
+                </div>
+                <span class="service-code">04</span>
+              </div>
+              <h3>Baterias</h3>
+              <p>Teste de carga, diagnóstico do sistema de carregamento e substituição de bateria para seu veículo.</p>
+            </div>
+            <a class="service-link" href="https://wa.me/554832551367?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20Baterias." target="_blank" rel="noopener noreferrer">Orçar no WhatsApp →</a>
+          </article>
+
+          <article class="service-card">
+            <div>
+              <div class="service-top">
+                <div class="service-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M17 5l-5 5-5-5"/><path d="M17 19l-5-5-5 5"/><path d="M2 12h20"/></svg>
+                </div>
+                <span class="service-code">05</span>
+              </div>
+              <h3>Ar-Condicionado Automotivo</h3>
+              <p>Revisão completa, higienização, troca de filtro de cabine, recarga de gás e reparo de vazamentos.</p>
+            </div>
+            <a class="service-link" href="https://wa.me/554832551367?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20Ar-Condicionado%20Automotivo." target="_blank" rel="noopener noreferrer">Orçar no WhatsApp →</a>
+          </article>
+
+          <article class="service-card">
+            <div>
+              <div class="service-top">
+                <div class="service-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/></svg>
+                </div>
+                <span class="service-code">06</span>
+              </div>
+              <h3>Pneus</h3>
+              <p>Troca, montagem, calibragem e avaliação de desgaste para mais segurança na cidade e na rodovia.</p>
+            </div>
+            <a class="service-link" href="https://wa.me/554832551367?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20Pneus." target="_blank" rel="noopener noreferrer">Orçar no WhatsApp →</a>
+          </article>
+
+          <article class="service-card">
+            <div>
+              <div class="service-top">
+                <div class="service-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+                </div>
+                <span class="service-code">07</span>
+              </div>
+              <h3>Troca de Óleo</h3>
+              <p>Substituição de óleo e filtros seguindo as especificações corretas para preservar a vida útil do motor.</p>
+            </div>
+            <a class="service-link" href="https://wa.me/554832551367?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20Troca%20de%20%C3%93leo." target="_blank" rel="noopener noreferrer">Orçar no WhatsApp →</a>
+          </article>
+
+          <article class="service-card">
+            <div>
+              <div class="service-top">
+                <div class="service-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="22" y1="12" x2="18" y2="12"/><line x1="6" y1="12" x2="2" y2="12"/><line x1="12" y1="6" x2="12" y2="2"/><line x1="12" y1="22" x2="12" y2="18"/></svg>
+                </div>
+                <span class="service-code">08</span>
+              </div>
+              <h3>Balanceamento e Geometria</h3>
+              <p>Alinhamento de direção e balanceamento de rodas para estabilidade, conforto e menor desgaste dos pneus.</p>
+            </div>
+            <a class="service-link" href="https://wa.me/554832551367?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20Balanceamento%20e%20Geometria." target="_blank" rel="noopener noreferrer">Orçar no WhatsApp →</a>
+          </article>
+        </div>
+
+        <div class="guincho-bay">
+          <div class="hazard-stripe"></div>
+          <div class="guincho-body">
+            <div>
+              <h3>Precisa de guincho agora?</h3>
+              <p>Canal exclusivo de emergência para acionar o guincho direto pelo WhatsApp.</p>
+            </div>
+            <a
+              class="btn btn-guincho"
+              style="background: linear-gradient(180deg, #dc2626 0%, #991b1b 100%); color: #fff; border-color: #f87171;"
+              href="https://wa.me/5548999578444?text=Ol%C3%A1!%20Preciso%20solicitar%20atendimento%20de%20guincho."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Solicitar Guincho · (48) 99957-8444
+            </a>
+          </div>
+          <div class="hazard-stripe"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reputation-band" id="avaliacoes">
+      <div class="container reputation-grid">
+        <div class="rating-box bolted">
+          <div class="rating-kicker">Painel de Avaliação · Google</div>
+          <div class="rating-score">4,8</div>
+          <div class="rating-stars" aria-label="4,8 de 5 estrelas">★★★★★</div>
+          <div class="rating-count">549 avaliações reais no Google Maps</div>
+          <a
+            class="btn btn-steel"
+            href="https://maps.app.goo.gl/J19aEb9t97ev9jHK9"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ver avaliações no Google Maps
+          </a>
+        </div>
+
+        <div class="pillars">
+          <div class="pillar-item bolted">
+            <span class="pillar-num">01</span>
+            <div>
+              <h3>Estrutura completa em um só lugar</h3>
+              <p>Da manutenção rápida de óleo e pneus ao diagnóstico avançado, elétrica, ar-condicionado e câmbio automático.</p>
+            </div>
+          </div>
+          <div class="pillar-item bolted">
+            <span class="pillar-num">02</span>
+            <div>
+              <h3>Canais separados para agilizar</h3>
+              <p>Contatos diretos para Orçamento/Comercial, Atendimento de Guincho e Financeiro — sem fila em um único número.</p>
+            </div>
+          </div>
+          <div class="pillar-item bolted">
+            <span class="pillar-num">03</span>
+            <div>
+              <h3>Localização central em Imbituba</h3>
+              <p>Na Rua Três de Outubro, 401 — Centro, com acesso direto para quem mora ou trabalha na região.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section steel-plate-bg" id="canais">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">// Canais Diretos</span>
+          <h2>Fale com o setor certo em um clique</h2>
+          <p>Todos os contatos oficiais da Auto Mecânica Schlickmann organizados em um único painel.</p>
+        </div>
+
+        <div class="channels-grid">
+          <a class="channel-card bolted" href="https://wa.me/554832551367" target="_blank" rel="noopener noreferrer">
+            <span class="channel-tag">WhatsApp</span>
+            <h3>Orçamento e Comercial</h3>
+            <span class="channel-phone">(48) 3255-1367</span>
+            <p class="channel-desc">Solicite orçamentos, tire dúvidas sobre serviços e agende a entrada do seu veículo.</p>
+            <span class="channel-cta">Abrir WhatsApp →</span>
+          </a>
+
+          <a class="channel-card rail-red bolted" href="https://wa.me/5548999578444" target="_blank" rel="noopener noreferrer">
+            <span class="channel-tag tag-red">Emergência</span>
+            <h3>Atendimento de Guincho</h3>
+            <span class="channel-phone">(48) 99957-8444</span>
+            <p class="channel-desc">Canal direto para chamar guincho com agilidade quando você mais precisa.</p>
+            <span class="channel-cta">Solicitar Guincho →</span>
+          </a>
+
+          <a class="channel-card rail-gold bolted" href="https://wa.me/554832552933" target="_blank" rel="noopener noreferrer">
+            <span class="channel-tag tag-gold">Financeiro</span>
+            <h3>Setor Financeiro</h3>
+            <span class="channel-phone">(48) 3255-2933</span>
+            <p class="channel-desc">Atendimento direto para notas fiscais, boletos, pagamentos e acertos administrativos.</p>
+            <span class="channel-cta">Falar com Financeiro →</span>
+          </a>
+
+          <a class="channel-card rail-ig bolted" href="https://www.instagram.com/mecanica_schlickmann" target="_blank" rel="noopener noreferrer">
+            <span class="channel-tag tag-ig">Instagram</span>
+            <h3>@mecanica_schlickmann</h3>
+            <span class="channel-phone">Bastidores e serviços</span>
+            <p class="channel-desc">Acompanhe o dia a dia da oficina, manutenções realizadas e avisos no Instagram.</p>
+            <span class="channel-cta">Ver perfil oficial →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="localizacao">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">// Localização e Horários</span>
+          <h2>Como chegar até a oficina</h2>
+        </div>
+
+        <div class="location-grid">
+          <div class="location-card bolted">
+            <div class="loc-detail">
+              <div class="loc-block">
+                <h4>Endereço</h4>
+                <p>Rua Três de Outubro, 401 — Centro<br />Imbituba - SC, CEP 88780-000</p>
+              </div>
+              <div class="loc-block">
+                <h4>Horário de Atendimento</h4>
+                <p>Segunda a Sexta-feira<br />08h às 12h e 13h30 às 18h30</p>
+              </div>
+              <div class="loc-block">
+                <h4>Telefones</h4>
+                <p class="font-mono" style="font-size: 14px; line-height: 1.7;">
+                  Comercial: (48) 3255-1367<br />
+                  Guincho: (48) 99957-8444<br />
+                  Financeiro: (48) 3255-2933
+                </p>
+              </div>
+            </div>
+            <a
+              class="btn btn-wa"
+              href="https://maps.app.goo.gl/J19aEb9t97ev9jHK9"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Abrir rota no Google Maps
+            </a>
+          </div>
+
+          <div class="map-frame">
+            <iframe
+              title="Mapa de localização da Auto Mecânica Schlickmann em Imbituba"
+              src="https://maps.google.com/maps?q=Auto+Mec%C3%A2nica+Schlickmann+Rua+Tr%C3%AAs+de+Outubro+401+Imbituba+SC&t=&z=16&ie=UTF8&iwloc=&output=embed"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="hazard-stripe-thin"></div>
+    <div class="container footer-inner">
+      <div>
+        <strong style="color: #fff;">AUTO MECÂNICA SCHLICKMANN</strong> · Rua Três de Outubro, 401 — Centro, Imbituba - SC
+      </div>
+      <div class="font-mono" style="font-size: 12px;">
+        Prévia demonstrativa · Comercial: (48) 3255-1367
+      </div>
+    </div>
+  </footer>
+
+  <a
+    class="floating-wa"
+    href="https://wa.me/554832551367?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20com%20a%20Auto%20Mec%C3%A2nica%20Schlickmann."
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Solicitar orçamento no WhatsApp"
+  >
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2zm5.8 14.07c-.24.68-1.42 1.31-1.97 1.39-.51.08-1.15.11-1.86-.12-.43-.14-.98-.32-1.69-.63-2.97-1.28-4.91-4.27-5.06-4.47-.15-.2-1.21-1.61-1.21-3.07 0-1.46.76-2.18 1.03-2.48.27-.3.59-.38.79-.38.2 0 .4 0 .57.01.18.01.43-.07.67.51.24.58.83 2.02.9 2.17.07.15.12.33.02.53-.1.2-.15.33-.3.5-.15.17-.31.38-.45.51-.15.15-.31.31-.13.61.18.3.78 1.29 1.68 2.09 1.15 1.03 2.13 1.35 2.43 1.5.3.15.48.13.66-.08.18-.21.75-.88.95-1.18.2-.3.4-.25.67-.15.27.1 1.74.82 2.04.97.3.15.5.22.57.34.07.12.07.7-.17 1.38z"/>
+    </svg>
+    Orçamento WhatsApp
+  </a>
+
+  <script>
+    (function () {
+      const chips = document.querySelectorAll('.chip-btn');
+      const vehicleInput = document.getElementById('vehicle-input');
+      const budgetBtn = document.getElementById('budget-wa-btn');
+      const badge = document.getElementById('budget-channel-badge');
+      const floatingWa = document.querySelector('.floating-wa');
+
+      let selectedService = 'Mecânica Geral e Diagnóstico';
+      let selectedChannel = 'comercial';
+
+      function updateLink() {
+        const isGuincho = selectedChannel === 'guincho';
+        const phone = isGuincho ? '5548999578444' : '554832551367';
+        const vehicle = (vehicleInput.value || '').trim();
+        let msg = isGuincho
+          ? 'Olá! Preciso solicitar atendimento de guincho.'
+          : 'Olá! Gostaria de um orçamento para ' + selectedService + '.';
+        if (vehicle) {
+          msg += ' Veículo: ' + vehicle + '.';
+        }
+        budgetBtn.href = 'https://wa.me/' + phone + '?text=' + encodeURIComponent(msg);
+        badge.textContent = isGuincho
+          ? 'Destino: Guincho · (48) 99957-8444'
+          : 'Destino: Orçamento · (48) 3255-1367';
+        badge.classList.toggle('is-guincho', isGuincho);
+      }
+
+      chips.forEach(function (chip) {
+        chip.addEventListener('click', function () {
+          chips.forEach(function (c) {
+            c.classList.remove('active');
+          });
+          chip.classList.add('active');
+          selectedService = chip.getAttribute('data-service') || 'Mecânica Geral e Diagnóstico';
+          selectedChannel = chip.getAttribute('data-channel') || 'comercial';
+          updateLink();
+        });
+      });
+
+      vehicleInput.addEventListener('input', updateLink);
+      updateLink();
+
+      function toggleFloating() {
+        if (!floatingWa) return;
+        floatingWa.classList.toggle('visible', window.scrollY > 360);
+      }
+      window.addEventListener('scroll', toggleFloating, { passive: true });
+      toggleFloating();
+    })();
+  </script>
+</body>
+</html>
